@@ -26,11 +26,11 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-H7AJNQV</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWvOfAwmATUCytd4m9VN8TwAAAAACAAAAAAAQZgAAAAEAACAAAABzGy3o6k90RF5raM7NkD4YXZjO76gzqLQ9n0Wq9d+uuAAAAAAOgAAAAAIAACAAAABaasERR0XHXH3powSXbiqPuySRd7tLQ9Rcmzmd8IU/LZAAAADQiVaz6rWRy5iQBz2Nks6UVP8PuQ8H5/WYmBhyb1roLd2tY0iARizmYMaABmTWQr08XnPnt06sLuuJPbIIigCyVCluUgkE3Mawf788az0ieT9b9uxCU7Hty10qD33f7hY3YQ24AiPgRFa8jdbobJvlR0ukmm4k6IhWH2e6nVLSlTFGtcaf+uV5gboAijm2NTVAAAAAh4l8SmRVeleHKKNAE3yepikbkdaPzwbwZwBZCXL9jqjCRoMpYjhrB1ng8JMHuSZzw23Rcn0ic13CHXE3mfKl5Q==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWvOfAwmATUCytd4m9VN8TwAAAAACAAAAAAAQZgAAAAEAACAAAABDlF4+aOyB/utVXq9P9nUDdopVNoSe1mvuZ2RxUaXh3AAAAAAOgAAAAAIAACAAAABDaNUx8f3d0mxFUibGP1G2KCZOX/wwwZcx9Ok5/9TgwpAAAACc848xV0ayoT3oXcnm3xQfMlOCj5M6xWcMPOIOaS+5XE7i7kqWYUPdddKAphaAkY9fGXPpfhewTksvh+1JdXuWh23dBdiKCfd2VO2FNgySq5UmZaJD3jG87CdcMQPOWQLN6rihpVe/yt8p0buvsI8rfMlaw792oDDMz+LkV6dbaebpclihonFTpwnZrvxInilAAAAACuszOunfcqIS+J66ktIExeVZ4Or5w9kpbuz0qBvbTZaE4O4wKm7wxBx9tAE6YdAvZgBvgg3Ob0g8TEDdFAwWzw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Sales_data_mart.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="Source DB.conmgr" />
@@ -336,16 +336,16 @@
             </SSIS:Parameter>
           </SSIS:ProjectConnectionParameters>
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="Sales_data_mart.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{43B64945-827E-40AB-878C-23B3F902230A}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{8A245135-D532-4035-ADC4-7DAE1EFBEC4F}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Sales_data_mart</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">61</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">72</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{043C69DE-9D53-4173-9358-9C47A5B231BC}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{ADA63039-6DDB-4F39-8780-1F78321D5ECE}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
